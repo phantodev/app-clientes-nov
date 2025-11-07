@@ -139,10 +139,10 @@ export default function IndexPage() {
             {/* Botão Login */}
             <Button
               type="submit"
-              color="primary"
+              color="success"
               size="lg"
               className="w-full font-semibold"
-              isLoading={loading}
+              isLoading={loading} 
               isDisabled={loading || !email || !password}
             >
               Login
